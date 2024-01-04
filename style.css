@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #004756;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content{
+    height: 400px;
+    width: 350px;
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.main-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* border-radius: 10px; */
+}
+
+.main-content i{
+    font-size:80px;
+    color: rgb(250, 42, 122);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0);  /* Scales div element to twice its original size. */
+    /* opacity: 0; */
+
+    transition: transform ease .4s;
+}
