@@ -18,14 +18,12 @@ How to Use:
 Clone the repository to your local machine.
 Open the index.html file in your preferred web browser.
 Explore the interactive Instagram-like feature with smooth animations.
+
 Contributions:
 Contributions are welcome! Feel free to submit pull requests to enhance or add new features.
 
 License:
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Demo:
-Include a link to a live demo or screenshots to showcase the project in action.
 
 Acknowledgments:
 
